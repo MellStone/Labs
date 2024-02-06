@@ -17,4 +17,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/LoadScreen.unity
     guid: ae9c4d4703e2b8246a351ca1ff504858
+  - enabled: 1
+    path: Assets/Scenes/Random Level/Maze1.unity
+    guid: b6142c962d450c7459d08b2e86264a9f
+  - enabled: 1
+    path: Assets/Scenes/Random Level/Maze2.unity
+    guid: cec08c2440aa8f04f864aa2a8113448f
   m_configObjects: {}

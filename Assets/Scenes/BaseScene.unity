@@ -213,12 +213,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 223027843}
   m_LocalRotation: {x: -0, y: 0.70710737, z: -0, w: 0.7071063}
-  m_LocalPosition: {x: 0.1, y: 1.5, z: -23.5}
-  m_LocalScale: {x: 1, y: 3.5, z: 48.767105}
+  m_LocalPosition: {x: 0.1, y: 1.5, z: -26}
+  m_LocalScale: {x: 1, y: 3.5, z: 52}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!1 &705507993
 GameObject:
@@ -488,12 +488,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1069627760}
   m_LocalRotation: {x: -0, y: 0.00000008940697, z: -0, w: 1}
-  m_LocalPosition: {x: -23.86, y: 1.5, z: 0.45}
-  m_LocalScale: {x: 1, y: 3.5, z: 48.767105}
+  m_LocalPosition: {x: -26, y: 1.5, z: 0}
+  m_LocalScale: {x: 1, y: 3.5, z: 53}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1222546053
 GameObject:
@@ -586,8 +586,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1222546053}
   m_LocalRotation: {x: -0, y: 0.00000086426735, z: -0, w: 1}
-  m_LocalPosition: {x: 26.11, y: 1.5, z: 21.68}
-  m_LocalScale: {x: 1, y: 3, z: 4.3321533}
+  m_LocalPosition: {x: 26.11, y: 1.5, z: 23.419}
+  m_LocalScale: {x: 1, y: 3, z: 3.5}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -626,7 +626,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1577448641
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -809,12 +809,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1624372752}
   m_LocalRotation: {x: -0, y: 0.70710677, z: -0, w: 0.7071069}
-  m_LocalPosition: {x: 0.18, y: 1.5, z: 24.43}
-  m_LocalScale: {x: 1, y: 3.5, z: 48.767105}
+  m_LocalPosition: {x: 0.18, y: 1.5, z: 26}
+  m_LocalScale: {x: 1, y: 3.5, z: 52}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!114 &1624372757
 MonoBehaviour:
@@ -829,6 +829,54 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   keyState: {fileID: 0}
+--- !u!1 &1727493671
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1727493673}
+  - component: {fileID: 1727493672}
+  m_Layer: 0
+  m_Name: MazeGenerator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!114 &1727493672
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1727493671}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 138a053c1c75c1045b62140d0dfda562, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  width: 10
+  height: 10
+  mazeScale: 3.5
+  wallPrefab: {fileID: 5771387837863799855, guid: a99a6763ee8fed845abd2454a52edcde, type: 3}
+--- !u!4 &1727493673
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1727493671}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 1
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2037963947
 GameObject:
   m_ObjectHideFlags: 0
@@ -919,8 +967,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2037963947}
   m_LocalRotation: {x: -0, y: 0.00000086426735, z: -0, w: 1}
-  m_LocalPosition: {x: 24.3, y: 1.5, z: -2.3}
-  m_LocalScale: {x: 1, y: 3.5, z: 43.36097}
+  m_LocalPosition: {x: 26, y: 1.5, z: -2.4177}
+  m_LocalScale: {x: 1, y: 3.5, z: 48}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -1017,7 +1065,7 @@ Transform:
   m_GameObject: {fileID: 2073975789}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: -0.5, z: 0}
-  m_LocalScale: {x: 50, y: 1, z: 50}
+  m_LocalScale: {x: 52, y: 1, z: 52}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -1169,5 +1217,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 281b71d0be11f094989a2520ade99125, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  firstAdditionalSceneName: Secret2
-  secondAdditionalSceneName: Secret1
+  firstAdditionalSceneName: Maze1
+  secondAdditionalSceneName: Maze2

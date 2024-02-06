@@ -9,10 +9,13 @@ public class KeyStateSO : ScriptableObject
 
     public void CollectKey()
     {
-        currentKeyCount++;
-        if (currentKeyCount > keyCountToOpen)
+        ++currentKeyCount;
+        if (currentKeyCount >= keyCountToOpen)
             isKeyCollected = true;
+        Debug.Log(currentKeyCount);
     }
+
+    public int CountReturner { get => currentKeyCount; }
 
     public bool IsKeyCollected()
     {

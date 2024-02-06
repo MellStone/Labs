@@ -9,7 +9,7 @@ public class SceneCustomManager : MonoBehaviour
     [SerializeField] private string secondAdditionalSceneName;
 
     private bool isFirstSceneLoad = false;
-
+   
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.E))
